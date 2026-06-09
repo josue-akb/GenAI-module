@@ -1,0 +1,17 @@
+[project]
+name = "mon-serveur-mcp"
+version = "0.1.0"
+description = "Serveur MCP exposant des tools Python pour Cursor"
+authors = [
+  { name = "akoub" }
+]
+
+dependencies = [
+  "mcp",
+  "requests"
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = []
